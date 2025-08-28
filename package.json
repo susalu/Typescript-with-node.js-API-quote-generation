@@ -1,0 +1,17 @@
+{
+  "name": "quote-api",
+  "version": "1.0.0",
+  "description": "A simple quote API server",
+  "main": "dist/server.js",
+  "scripts": {
+    "start": "node dist/server.js",
+    "dev": "ts-node src/server.ts",
+    "build": "tsc",
+    "clean": "rm -rf dist"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.11",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.0.0"
+  }
+}
